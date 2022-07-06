@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch"
   },
+  
   "dependencies": {
     "@artkit/connect": "^0.0.3",
     "@dnd-kit/core": "^4.0.1",

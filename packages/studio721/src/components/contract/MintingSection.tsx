@@ -206,16 +206,7 @@ export const MintingSection = memo(function MintingSection({
             Deploying less code means lower costs.
             <br />
             <br />
-            The deployed code that we're reusing was created by{' '}
-            <TwitterChip hasMargin={false} value="@isiain" /> and is available
-            on GitHub{' '}
-            <LinkChip
-              openInNewTab
-              href="https://github.com/iainnash/gwei-slim-erc721"
-            >
-              GitHub
-            </LinkChip>
-            .
+            
           </>
         }
       >

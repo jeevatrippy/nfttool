@@ -5,6 +5,7 @@
   "author": "Devin Abbott",
   "license": "MIT",
   "private": true,
+  "homepage": "http://blumeta.travelinsert.com",
   "workspaces": [
     "packages/**"
   ],

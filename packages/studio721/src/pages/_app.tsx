@@ -98,7 +98,7 @@ export default function App({ Component, pageProps }: AppProps) {
                       <LogoImage src={logoUrl} />
                     </NavLink>
                     {/* <NavLink href="/guide">Guide</NavLink> */}
-                    <NavLink href="/artkit">Artkit</NavLink>
+                    {/* <NavLink href="/artkit">Artkit</NavLink> */}
                     <NavLink href="/contract">Contract</NavLink>
                     <NavLink href="/mint">Mint</NavLink>
                   </HStack>

@@ -50,12 +50,12 @@ export function CollectionWelcome({
           <strong>make sure to save before quitting!</strong>
         </Regular>
         <SpacerVertical size={20} />
-        <Regular>
+        {/* <Regular>
           Not sure where to start? There's a{' '}
           <LinkChip href="/guide/studio/artkit">
             guide and video walkthrough!
           </LinkChip>
-        </Regular>
+        </Regular> */}
         <SpacerVertical size={30} />
         {isLoading ? (
           <Regular className="flickerAnimation">Loading Collection...</Regular>

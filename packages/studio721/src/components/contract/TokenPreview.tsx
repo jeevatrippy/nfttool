@@ -342,13 +342,13 @@ export const TokenPreview = memo(function TokenPreview({
               <SpacerVertical size={20} />
               The <Code>{`{tokenId}`}</Code> variable will be replaced with the
               current token ID. As an example,{' '}
-              <Code>https://www.721.so/api/example/metadata/{`{tokenId}`}</Code>{' '}
+              <Code>https://www.bluemeta.xyz/api/example/metadata/{`{tokenId}`}</Code>{' '}
               becomes{' '}
               <LinkChip
                 openInNewTab
-                href="https://www.721.so/api/example/metadata/0"
+                href="#"
               >
-                https://www.721.so/api/example/metadata/0
+                https://www.bluemeta.xyz/api/example/metadata/0
               </LinkChip>
               <SpacerVertical size={20} />
               If you choose to add parameters to your NFT, you can use the{' '}
@@ -368,7 +368,7 @@ export const TokenPreview = memo(function TokenPreview({
               </LinkChip>
               <SpacerVertical size={20} />
               <Blockquote style={{ fontSize: 'inherit' }}>
-                Studio 721 doesn{"'"}t host your assets or metadata - you can
+                Bluemeta doesn{"'"}t host your assets or metadata - you can
                 host it anywhere you like.{' '}
                 <LinkChip href="https://ipfs.io/" openInNewTab>
                   IPFS
