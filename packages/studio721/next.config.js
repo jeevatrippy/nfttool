@@ -7,7 +7,7 @@ const workspacePath = path.join(__dirname, '..');
 
 const withGuidebook = generateGuidebook({
   guidebookDirectory: './src/pages/guide',
-  guidebookModulePath: `./guidebook.d.ts`,
+  guidebookModulePath: path.resolve(process.cwd(), 'guidebook.js'),
 });
 
 const withMDX = require('next-mdx-frontmatter')({
