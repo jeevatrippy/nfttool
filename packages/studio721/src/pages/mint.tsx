@@ -82,9 +82,9 @@ export default function Mint({
 
   const etherActorAbi = useFetch<{ abi: any }>(
     style.contractAddress
-      ? `${getEtherActorBaseURL(style.chainId || chainId)}&address=${
+      ? `${getEtherActorBaseURL(style.chainId || chainId)}/${
           style.contractAddress
-        }&apikey=U2VDD979B18H3KBUU7XEWGZ8H9G95H9SS3`
+        }.json`
       : undefined,
   );
 

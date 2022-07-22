@@ -19,19 +19,19 @@ import { docsTheme } from '../components/docs/Docs';
 import { SimplePrimaryButton } from '../components/mint/MintingCardDetails';
 import { socialConfig } from '../utils/socialConfig';
 
-const LogoImage = styled.img({
-  width: 'auto',
-  height: '50px',
-  objectFit: 'contain',
-  objectPosition: 'left center',
+// const LogoImage = styled.img({
+//   width: 'auto',
+//   height: '50px',
+//   objectFit: 'contain',
+//   objectPosition: 'left center',
 
-  '@media screen and (max-width: 600px)': {
-    height: 'auto',
-  },
-  '@media screen and (max-width: 410px)': {
-    height: '20px',
-  },
-});
+//   '@media screen and (max-width: 600px)': {
+//     height: 'auto',
+//   },
+//   '@media screen and (max-width: 410px)': {
+//     height: '20px',
+//   },
+// });
 
 const BlocksImage = styled.img({
   width: 'auto',
@@ -102,11 +102,11 @@ function ToolCard({
   );
 }
 
-const StarButtonContainer = styled.div({
-  '& a': {
-    boxShadow: '0 1px 2px rgba(0,0,0,0.25)',
-  },
-});
+// const StarButtonContainer = styled.div({
+//   '& a': {
+//     boxShadow: '0 1px 2px rgba(0,0,0,0.25)',
+//   },
+// });
 
 const Grid = styled.div({
   display: 'grid',
@@ -125,7 +125,7 @@ export default function Studio721() {
       <Head>
         <title>Bluemeta</title>
         {getHeadTags({
-          pageTitle: 'Studio 721',
+          pageTitle: 'Bluemeta',
           pageDescription:
             'Creating NFT smart contracts.',
           config: socialConfig,
