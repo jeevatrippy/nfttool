@@ -172,13 +172,13 @@ export default function Studio721() {
               description="Learn how NFTs work, and how to create your own collection."
               buttonTitle="Get started!"
               linkTo="/guide"
-            />
+            /> */}
             <ToolCard
               name="Artkit"
               description="Create NFT artwork and metadata, and upload it to decentralized storage."
               buttonTitle="Create an NFT collection"
               linkTo="/artkit"
-            /> */}
+            />
             <ToolCard
               name="Contract"
               description="Configure, compile, and deploy an NFT smart contract."

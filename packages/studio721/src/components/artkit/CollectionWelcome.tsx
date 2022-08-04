@@ -74,7 +74,7 @@ export function CollectionWelcome({
               <SpacerHorizontal inline size={8} />
               New Collection
             </RainbowButton>
-            <RainbowButton
+            {/* <RainbowButton
               onClick={() => {
                 onInitialize({ volume: createGenerativeArtCollection() });
               }}
@@ -86,7 +86,7 @@ export function CollectionWelcome({
               />
               <SpacerHorizontal inline size={8} />
               New Generative Art Collection
-            </RainbowButton>
+            </RainbowButton> */}
             <Divider variant="light" />
             <RainbowButton
               onClick={async () => {

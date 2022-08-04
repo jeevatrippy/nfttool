@@ -34,9 +34,9 @@ export default function Collection() {
   return (
     <>
       <Head>
-        <title>Studio 721</title>
+        <title>Bluemeta</title>
         {getHeadTags({
-          pageTitle: 'Studio 721 Artkit',
+          pageTitle: 'Bluemeta Artkit',
           pageDescription:
             'Create NFT artwork and metadata, and upload it to decentralized storage.',
           config: socialConfig,
