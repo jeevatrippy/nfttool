@@ -303,7 +303,7 @@ export function PublishingTool({
             <Heading3>Done!</Heading3>
             <VStack gap={10} background="#24562f" padding={10} borderRadius={2}>
               <Small>
-                If you're creating a contract with Studio 721, use this URI as
+                If you're creating a contract with Bluemeta, use this URI as
                 your Token URI:
               </Small>
               <CopyableInputRow
