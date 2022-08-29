@@ -157,7 +157,11 @@ export function TokenInspector({
                 case 'internal':
                   return;
                 case 'computer':
-                  const file = await fileOpen();
+                  const file = await fileOpen({
+                    mimeTypes: ['image/*'],
+                    // List of allowed file extensions (with leading '.'), defaults to `''`.
+                    extensions: ['.png', '.jpg', '.jpeg', '.webp'],
+                  });
 
                   if (!file.handle) return;
 

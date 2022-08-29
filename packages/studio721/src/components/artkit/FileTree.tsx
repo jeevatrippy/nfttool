@@ -212,7 +212,11 @@ export const FileTree = memo(function FileTree({
                 break;
               }
               case 'uploadFile': {
-                const file = await fileOpen();
+                const file = await fileOpen({
+                  mimeTypes: ['image/*'],
+                  // List of allowed file extensions (with leading '.'), defaults to `''`.
+                  extensions: ['.png', '.jpg', '.jpeg', '.webp'],
+                });
 
                 if (!file.handle) break;
 
