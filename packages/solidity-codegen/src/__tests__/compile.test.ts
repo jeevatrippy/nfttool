@@ -28,7 +28,8 @@ const libraryVersions = {
 
 const complexInput: Partial<ContractConfigState> = {
   tokenURI:
-    'https://www.721.so/api/example/metadata/{tokenId}.json{parameters}',
+    // 'https://www.721.so/api/example/metadata/{tokenId}.json{parameters}',
+    'https://bafybeihquqpz7duzyjpmsnxzgvgmqsikk6qf2vlfk4vreqjqrithmg3xzi.ipfs.nftstorage.link/{tokenId}.json{parameters}',
   multimint: 20,
   price: '0.02',
   activateAutomatically: true,

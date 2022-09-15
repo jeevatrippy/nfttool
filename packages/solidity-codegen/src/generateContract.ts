@@ -244,7 +244,7 @@ export function generateContractSource(config: ContractConfigState) {
         ],
       },
       blockComment({
-        value: 'Contract created with Studio 721 v1.5.0\nhttps://721.so',
+        value: 'Contract created with Bluemeta v1.5.0\nhttps://bluemetastudio.xyz',
         commentType: '//',
       }),
     ],

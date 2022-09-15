@@ -369,7 +369,8 @@ export function createInitialState(
     config: {
       tokenName: 'TestToken',
       shortName: 'TTKN',
-      tokenURI: 'https://www.721.so/api/example/metadata/{tokenId}',
+      // tokenURI: 'https://www.721.so/api/example/metadata/{tokenId}',
+      tokenURI:'https://bafybeihquqpz7duzyjpmsnxzgvgmqsikk6qf2vlfk4vreqjqrithmg3xzi.ipfs.nftstorage.link/{tokenId}.token.json',
       supply: 2000,
       customMaxTokenId: undefined,
       multimint: undefined,

@@ -99,7 +99,8 @@ export function createDefaultToken(): NFTMetadata {
   return {
     name: 'Token #{tokenId}',
     description: 'An example nonfungible token.',
-    image: `https://721.so/api/example/assets/image/{tokenId}`,
+    // image: `https://721.so/api/example/assets/image/{tokenId}`,
+    image: `https://ipfs.eth.aragon.network/ipfs/bafybeieatis56ek6ew2twaomobw3phxw35aozk7titqonzew7d26cjjvei/{tokenId}.png`,
   };
 }
 

@@ -56,20 +56,21 @@ export function NFTTokenDiagram() {
   const mapping = [
     {
       id: '0',
-      owner: '0x5BF4be9de72713bFE39A30EbE0691afd5fb7413a',
-      uri: <LinkCell href="https://www.721.so/api/example/metadata/0" />,
+      owner: '0x0Dee3c934C9C15438da8a644fBbcFA1c84D8D685',
+      uri: <LinkCell href="https://bafybeihquqpz7duzyjpmsnxzgvgmqsikk6qf2vlfk4vreqjqrithmg3xzi.ipfs.nftstorage.link/0.token.json" />,
       background: theme.colors.primary,
     },
     {
       id: '1',
-      owner: '0x61E1a6Ed9109F554Bb785815D9f2C65f4a4C41A5',
-      uri: <LinkCell href="https://www.721.so/api/example/metadata/1" />,
+      owner: '0x0Dee3c934C9C15438da8a644fBbcFA1c84D8D685',
+      uri: <LinkCell href="https://bafybeihquqpz7duzyjpmsnxzgvgmqsikk6qf2vlfk4vreqjqrithmg3xzi.ipfs.nftstorage.link/1.token.json" />,
       background: '#578cf1',
     },
     {
       id: '2',
-      owner: '0xb794f5Ea0ba39494cE839613fffba74279579268',
-      uri: <LinkCell href="https://www.721.so/api/example/metadata/2" />,
+      owner: '0x0Dee3c934C9C15438da8a644fBbcFA1c84D8D685',
+      // uri: <LinkCell href="https://www.721.so/api/example/metadata/2" />,
+      uri: <LinkCell href="https://bafybeihquqpz7duzyjpmsnxzgvgmqsikk6qf2vlfk4vreqjqrithmg3xzi.ipfs.nftstorage.link/2.token.json" />,
       background: '#42b1a3',
     },
   ];
